@@ -1,4 +1,4 @@
-% Start with an avi Video file.
+%% Start with an avi Video file.
 % Prepare ImageData fpr processing and store in a variable
 % Thereby, reducing file on which analysis will be done.
 vidObj=VideoReader('C:\Users\Admin\Desktop\DataAnalysis\2mmA.avi')
@@ -16,11 +16,7 @@ vidObj.CurrentTime=4510;
 s1 = imrotate(readFrame(vidObj),0.0);
 imshow(s1)
 hold on
-%%
-% s(k).currTime=vidObj.CurrentTime;
-% imshow(s1(:,:,2))
-s2=s1(:,:,1);
-imshow(s2)
+
 %%
 k=1;
 vidObj.CurrentTime=startTime;
@@ -36,3 +32,5 @@ s(k).currTime=vidObj.CurrentTime;
 % imshow(s(k).cdata)
 k = k+1
 end
+
+save Imagedata.mat s
