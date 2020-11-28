@@ -1,6 +1,5 @@
-# Buckling Analysis via Images for Threads/rods/membranes
-
-In this Image Processing project, I'm analysing images captured from a Phantom slow-motion camera, captured at intervals of 66 microseconds with MATLAB Image Processing Toolbox. These codes can be used to measure lengths with sub-pixel resolution. 
+# Buckling Analysis via Electronic data and Images for Threads/rods/membranes
+In this project, I'm measuring certain electronic data amplified with INA110KP Integrated Circuit chip via NI-SCB-68 and PXI-1033 at intervals of20μs.The entire process is recorded with a Fast camera (Phantom Miro M310) at intervals of∼66μs. The images are analysed with MATLAB Image Processing Toolbox. These codes can be used to measure lengths with sub-pixel resolution. 
 I am using these for Dynamic Buckling Analysis of experiments performed in Soft Matter Lab at TIFR.
 
 We take an image that looks as below:
