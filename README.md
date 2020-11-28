@@ -8,8 +8,8 @@ We take an image that looks as below:
   <img src="https://github.com/harshjn/DynamicBucklingRubberAnalysis.m/blob/master/image_fixed_width-2">  
 </p>
 
-### Output:
-And we get detected points in blue and red as I've labeled on the above black and white image.
+### Output
+And we get detected points in blue and red as I've labeled on the above black and white image:
 <p align="center">
   <img src="https://github.com/harshjn/DynamicBucklingRubberAnalysis.m/blob/master/image_fixed_width">  
 </p>
