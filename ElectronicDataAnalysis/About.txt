@@ -1,0 +1,1 @@
+We see how to filter and analyse electronic data from the NI-DAQ system.
