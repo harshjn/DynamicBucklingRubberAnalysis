@@ -1,1 +1,2 @@
 We have codes for the numerical integration using the Method of Lines.
+We solve the Differential equation which is Fourth order in Space and Second order in Time.
