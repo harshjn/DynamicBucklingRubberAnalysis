@@ -1,4 +1,5 @@
 # Buckling Analysis via Electronic data and Images for Threads/rods/membranes
+# Numerical Solution for Euler Bernoulli fourth order differential equation
 In this project, I'm measuring certain electronic data amplified with INA110KP Integrated Circuit chip via NI-SCB-68 and PXI-1033 at intervals of 20μs.The entire process is recorded with a Fast camera (Phantom Miro M310) at intervals of∼66μs. The images are analysed with MATLAB Image Processing Toolbox. These codes can be used to measure lengths with sub-pixel resolution. 
 I am using these for Dynamic Buckling Analysis of experiments performed in Soft Matter Lab at TIFR.
 
