@@ -1,5 +1,7 @@
 function yOut = PositionMap(PositionVolts,MaxMin)
 
+% Here we convert Voltage data from a log potentiometer into Position Mapping
+
 % MaxMin=[max(StrainVolts) min(StrainVolts)];
 % DaqData=importdata('Y:\harsh\Harsh_Rubber\DataMarch\StrainCalibration.lvm');
 % StrainData=DAQData(:,3);
