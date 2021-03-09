@@ -14,9 +14,8 @@ parfor ii=1:1:FrameNum
     ii
     imgData=s(ii).cdata;
     imgData_=imgData;
-    imgData_(160:240,1:372)=0;
-
-    imgData_(29:53,1:385)=0;
+    imgData_(160:240,1:372)=0; % Masking a region
+    imgData_(29:53,1:385)=0;   % Masking a region
     [~,Y1]=max(imgData_);
     % Then we set the starting and the end points.
     Y2=Y1;
