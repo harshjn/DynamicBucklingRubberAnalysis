@@ -3,9 +3,9 @@ clear all
 close all
 clc
 %%
-global ncall  G d0 Fmat_ tMat_ lMat_ rho
+global  G d0 Fmat_ tMat_ lMat_ rho
 % Independent variable for ODE integration
-ncall=0;
+% ncall=0;
 % Initial condition
 n=512;
 rho =1000;
@@ -21,7 +21,7 @@ lMat_ =[];
 y0 =zeros(2*n,1);
 
 y0(n*3/2) = 1e-5*(rand(1)-0.5);
-d0 = 100e-3;
+d0 = 100e-3; %Length of strip ~ 10cm
 
 %% Set F
 figure(2)
