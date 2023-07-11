@@ -19,9 +19,9 @@ y0(n+1:2*n) = y0(n+1:2*n)+0.5e-3*(rand(n,1)-0.5)';
 % y0(1.5*n) = y0(1.5*n)+random
 plot(y0)
 %%
-global ncall  G d0 Fmat_ tMat_ lMat_ rho
+global  G d0 Fmat_ tMat_ lMat_ rho
 % Independent variable for ODE integration
-ncall=0;
+% ncall=0;
 % Initial condition
 n=512;
 rho =1000;
@@ -34,7 +34,7 @@ Fmat_=[];
 tMat_ =[];
 lMat_ =[];
 % ell = d0;
-d0 = 100e-3;
+d0 = 100e-3; %Length of strip ~ 10 cm
 
 
 %%
